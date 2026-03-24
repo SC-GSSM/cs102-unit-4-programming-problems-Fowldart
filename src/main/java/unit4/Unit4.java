@@ -120,8 +120,8 @@ public class Unit4 {
         // TODO: Implement this method
         int numVowels = 0;
         for(int i = 0; i < str.length(); i++){
-            if(str.indexOf(i, i+1).equalsIgnoreCase("a")||str.indexOf(i, i+1).equalsIgnoreCase("e")||str.indexOf(i, i+1).equalsIgnoreCase("i")||
-            str.indexOf(i, i+1).equalsIgnoreCase("o")|| str.indexOf(i,i+1).equalsIgnoreCase("u")){
+            char c = Character.toLowerCase(str.charAt(i));
+            if(c == 'a'|| c=='e'|| c=='i'|| c=='o'|| c=='u'){
                 numVowels++;
             }
         }
@@ -214,7 +214,7 @@ public class Unit4 {
      *
      * <p>Points: 15</p>
      *
-     * <p>Example: multiplicationTable(3) prints:</p>
+     * <p>Example: multiplicationTable(3) prnts:</p>
      * <pre>
      * 1	2	3
      * 2	4	6
