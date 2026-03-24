@@ -214,7 +214,7 @@ public class Unit4 {
      *
      * <p>Points: 15</p>
      *
-     * <p>Example: multiplicationTable(3) prnts:</p>
+     * <p>Example: multiplicationTable(3) pnts:</p>
      * <pre>
      * 1	2	3
      * 2	4	6
