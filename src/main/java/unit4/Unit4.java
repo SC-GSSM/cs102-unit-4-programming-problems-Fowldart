@@ -190,7 +190,7 @@ public class Unit4 {
         for(int i = 0; i < n; i++){
             System.out.print("*");
         }
-        System.out.print(\n);
+        System.out.print("\n");
 
         for(int i = 0; i < n; i++){
             for(int j = 0; j< n; j++){
